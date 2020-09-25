@@ -13,5 +13,5 @@ node index.js
 To run browsers in headful mode, use xfvb (pre-installed)
 
 ```
-xfvb-run --auto-servernum -- node index.js
+/usr/bin/xfvb-run --auto-servernum -- node index.js
 ```
