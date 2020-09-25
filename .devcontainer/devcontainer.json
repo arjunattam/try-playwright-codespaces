@@ -1,3 +1,7 @@
 {
-  "image": "mcr.microsoft.com/playwright:next"
+  "image": "mcr.microsoft.com/playwright:next",
+  "postCreateCommand": "npm install",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  }
 }
